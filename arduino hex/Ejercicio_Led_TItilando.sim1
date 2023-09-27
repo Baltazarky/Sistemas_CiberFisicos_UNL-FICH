@@ -1,0 +1,13 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="876,448" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../../Ingenieria en IA/IA/arduino hex/sketch_sep27a.ino.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Switch" CircId="Switch-20" mainComp="false" Show_id="false" Show_Val="false" Pos="760,480" rotation="0" hflip="1" vflip="1" label="Switch-20" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Polos" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="Switch-20-switch0pinN" endpinid="Uno-1-2" pointList="776,480,884,480" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Switch-20-pinP0" endpinid="Uno-1-GND2" pointList="744,480,744,584,884,584" />
+
+</circuit>
